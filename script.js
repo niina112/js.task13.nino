@@ -15,9 +15,8 @@ const countdown = () => {
 
   if (timeLeft < 0) {
     clearInterval(timer);
-    document.querySelector(".countdown").innerHTML = "<h2>Launched!</h2>";
+    document.querySelector(".countdown").innerHTML = "Time's up!!!"
   }
 };
-
 const timer = setInterval(countdown, 1000);
 countdown();
