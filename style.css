@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Text";
+}
+
+
+h1 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image:
+        url('./Combined Shape.png'),
+        url('./Rectangle.png');
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    color: #FB5E84;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+    width: 60%;
+    height: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    width: 148px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.number {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FB5E84;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -2.4px;
+    background-image: url(./group\ 2.svg);
+}
+
+.rectangle {
+    width: 9.25rem;
+    height: 0.0625rem;
+    flex-shrink: 0;
+    opacity: 0.253;
+    background: #000;
+}
+
+p {
+    color: #8385A9;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 5.919px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.last {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-image: url(./Group\ 5.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% auto;
+}
+
+.logos {
+    height: 120px;
+}
+
+
+@media (max-width: 1110px) {
+    .text {
+        font-size: 18px;
+        letter-spacing: 6.136px;
+    }
+
+    .timer {
+        width: 60%;
+        height: 94px;
+    }
+
+    .box {
+        width: 70px;
+        height: 93px;
+    }
+
+    .number {
+        height: 71px;
+        font-size: 36px;
+    }
+
+    p {
+        font-size: 7px;
+    }
+
+    .last {
+        background-size: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .text {
+        width: 327px;
+    }
+
+    .timer {
+        width: 90%;
+    }
+
+    .last {
+        background-size: auto;
+    }
+}
